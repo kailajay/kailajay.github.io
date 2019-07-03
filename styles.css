@@ -1,0 +1,152 @@
+@import url(http://fonts.googleapis.com/css?family=montserrat:400,700);
+
+body {
+  color: #555;
+  margin: 0;
+
+  font-family: "montserrat",
+sans-serif;
+}
+
+#header {
+  background-color: skyblue;
+  height: 150px;
+  line-height: 150px;
+}
+
+#header a {
+  color: white;
+  text-decoration: none;
+
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#header a:hover {
+  color: navy;
+  text-transform: uppercase;
+  text-decoration: line-through;
+}
+
+#logo {
+  margin: 20px;
+  height: 110px;
+  width: 110px;
+}
+
+#header-title {
+  display: block;
+  float: left;
+
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#header-nav {
+  display: block;
+  float: right;
+  margin-top: 0;
+}
+
+#header-nav li {
+  display:inline;
+  padding-left: 20px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#footer {
+  background-color: dodgerblue;
+  padding: 50px 0;
+   bottom: 0;
+   width: 100%;
+
+}
+
+.column {
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#footer h4 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#footer p {
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: navy;
+  text-transform: uppercase;
+  text-decoration: line-through;
+}
+
+.post a {
+  color: skyblue;
+
+}
+.post, .about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+ .post:nth-child(even) {
+   background-color: lightgrey;
+   padding: 10px;
+ }
+
+ .about {
+   text-align: center;
+ }
+
+.post-author img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  border-radius: 5px 20px 5px;
+}
+
+.about-author img {
+  width: 80px;
+  height: 80px;
+  vertical-align: middle;
+  border-radius: 5px 20px 5px;
+}
+
+.post-author span {
+  margin-left: 16px;
+}
+
+.post-date {
+  color: #D2D2D2;
+
+  font-size: 14px;
+  font-weight: bold;
+
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+th {
+  text-align: left;
+}
+
+h1, h2, h3, h4 {
+  color: #333;
+}
+
+p {
+  line-height: 1.5;
+}
